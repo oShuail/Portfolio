@@ -1,0 +1,164 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Readex Pro', sans-serif;
+}
+.container{
+    width: 100%; 
+    overflow: hidden;
+}
+
+/* The navBar section */
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+}
+nav{    
+    display: flex;
+    justify-content: space-around;
+    width: 100%; 
+    height: 90px;
+    background: #06142E;
+    border-bottom: 5px solid #F39F5A; 
+}
+.heading{
+    font-size: 2.5rem;
+    font-weight: 450;
+    line-height: 2;
+    color: #F39F5A;
+}
+nav ul{
+    display: flex;
+    font-weight: 400;
+}
+nav ul li{
+    line-height: 4.5;
+    margin: 0 5px;
+    padding: 0 10px; /* TOP - RIGHT - BOTTOM - LEFT */
+}
+nav ul li a{
+    color: #e9d7da;
+    font-size: 20px;
+    padding: 7px 20px; /* TOP - RIGHT - BOTTOM - LEFT */
+}
+a.active,a:hover{
+    color: #F39F5A;
+    transition: .5s;
+}
+#check{
+    display: none; 
+}
+.checkbtn{
+    font-size: 30px;
+    padding-left: 10px;
+    cursor: pointer;
+    display: none; 
+    line-height: 80px;
+}
+
+/* The developer section */
+.developer{
+    height: 850px;
+    background: #16212c;
+}
+.devContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 250px;   
+}
+.dev{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 0 10px 0; /* TOP - RIGHT - BOTTOM - LEFT */
+    width: 350px;
+    height: 300px;
+    border-radius: 20px;
+    background: #1f2833;
+    box-shadow: 0 0 10px rgba(27, 28, 31, 0.5);
+}
+.dev img{
+    width: 55%;
+    margin-top: -125px;
+}   
+.dev h1{
+    font-size: 2rem;
+    font-weight: 550;
+    padding: 10px 0px 0px 0px; /* TOP - RIGHT - BOTTOM - LEFT */
+    color: #e9d7da;
+}
+.dev h3{
+    color: #F39F5A;
+    margin-top: auto;
+}
+.social-media{
+    margin-top: auto;  
+}
+#twitter{
+    padding: 0 8px 0 8px; /* TOP - RIGHT - BOTTOM - LEFT */
+}
+#twitter:hover svg path {
+    fill: #F39F5A;
+    transition: 0.5s;
+}
+#github{
+    padding: 0 0 0 4px; /* TOP - RIGHT - BOTTOM - LEFT */
+}
+#github:hover svg path {
+    fill: #F39F5A;
+    transition: 0.5s;
+}
+#linkedin:hover svg path {
+    fill: #F39F5A;
+    transition: 0.5s;
+}
+#email:hover svg g {
+    fill: #F39F5A;
+    transition: 0.5s;
+}
+
+/* about me section */
+.about-me{
+    height: 500px;
+    background: #06142E;
+}
+.about-me-Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.about-me-text{
+    text-align: center;
+    margin-top: 150px;
+}
+.about-me-text h1{
+    font-size: 40px;
+    padding-bottom: 25px;
+    color: #F39F5A;
+}
+.about-me-text span{
+    color: #F39F5A;
+}
+.about-me-text p{
+    font-size: 20px;
+    padding: 5px 55px 5px 55px;/* TOP - RIGHT - BOTTOM - LEFT */
+    color: #e9d7da;
+}
+.about-me-text-p{
+    width: 700px;
+    height: 100%;
+}
+
+.TEMP{
+    height: 800px;
+    background: #16212c;
+}

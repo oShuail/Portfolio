@@ -1,0 +1,92 @@
+@media (max-width: 1025px) {
+  nav {
+    justify-content: flex-start;
+  }
+  .checkbtn {
+    display: block;
+  }
+  .heading {
+    margin-left: auto;
+    padding-right: 25px;
+  }
+  ul.active {
+    position: fixed;
+    width: 30%;
+    top: 86px;
+    height: 100vh;
+    text-align: center;
+    background: #06142e;
+    border-right: 5px solid #f39f5a;
+    border-top: 5px solid #f39f5a;
+    transition: all 0.5s;
+    left: -200%; /* hiding the ul to the left side*/
+  }
+  nav ul {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  nav ul li {
+    /* display: block; */
+    margin: 35px 0;
+    line-height: 30px;
+  }
+  nav ul li a {
+    color: #e9d7da;
+    font-size: 23px;
+  }
+  a:hover,
+  a.active {
+    background: none;
+    color: #f39f5a;
+    transition: all 0.5s;
+  }
+  #check:checked ~ ul {
+    left: 0;
+  }
+  ul li:first-child {
+    order: 4;
+  }
+  ul li:nth-child(2) {
+    order: 3;
+  }
+  ul li:nth-child(3) {
+    order: 2;
+  }
+  ul li:nth-child(4) {
+    order: 1;
+  }
+}
+@media (max-width: 670px) {
+  .about-me-text h1 {
+    font-size: 30px;
+  }
+  .about-me-text-p {
+    width: 570px;
+    height: 100%;
+  }
+}
+@media (max-width: 515px) {
+  .about-me-text-p {
+    width: 530px;
+    height: 100%;
+  }
+  .about-me-text h1 {
+    font-size: 25px;
+  }
+  .about-me-text p {
+    font-size: 14.5px;
+  }
+  .dev {
+    width: 300px;
+    height: 250px;
+  }
+}
+@media (max-width: 447px) {
+  .about-me-text-p {
+    width: 450px;
+    height: 100%;
+  }
+  .about-me-text h1 {
+    font-size: 25px;
+  }
+}

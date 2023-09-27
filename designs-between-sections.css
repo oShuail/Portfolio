@@ -1,0 +1,122 @@
+/* Desgin spliters */
+.about-me-design-helper1{
+    position: absolute;
+    margin-top: -25px;
+    height: 100px;
+    width: 25%;
+    border-top: 2.5px solid #F39F5A;
+    background: #06142E;
+}
+.about-me-design-helper2 {
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 25%;
+    height: 100px;
+    width: 25%;
+    border-top: 2.5px solid #F39F5A;
+    background: #06142E;
+}
+.about-me-design-helper2::before {
+    content: "";
+    position: absolute;
+    height: 25%; 
+    left: 0; 
+    border-left: 2.5px solid #F39F5A;
+    width: 0; 
+}
+.about-me-design-helper3{
+    position: absolute;
+    margin-top: -75px;
+    margin-left: 50%;
+    height: 100px;
+    width: 25%;
+    border-top: 2.5px solid #F39F5A;
+    background: #06142E;
+}
+.about-me-design-helper3::before {
+    content: "";
+    position: absolute;
+    height: 25%; 
+    left: 0; 
+    border-left: 2.5px solid #F39F5A;
+    width: 0; 
+}
+.about-me-design-helper4{
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 75%;
+    height: 100px;
+    width: 25%;
+    border-top: 2.5px solid #F39F5A;
+    background: #06142E;
+}
+.about-me-design-helper4::before {
+    content: "";
+    position: absolute;
+    height: 25%; 
+    left: 0; 
+    border-left: 2.5px solid #F39F5A;
+    width: 0; 
+}
+.about-me-design-helper5{
+    position: absolute;
+    margin-top: -25px;
+    height: 100px;
+    width: 25%;
+    border-bottom: 2.5px solid #F39F5A;
+    background: #06142E;
+}
+.about-me-design-helper5::before {
+    content: "";
+    position: absolute;
+    top: 75%; 
+    height: 25%; 
+    right: 0; 
+    border-right: 2.5px solid #F39F5A;
+    width: 0; 
+}
+.about-me-design-helper6{
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 25%;
+    height: 100px;
+    width: 25%;
+    border-bottom: 2.5px solid #F39F5A;
+    background: #06142E;
+}
+.about-me-design-helper6::before {
+    content: "";
+    position: absolute;
+    top: 75%; 
+    height: 25%; 
+    right: 0; 
+    border-right: 2.5px solid #F39F5A;
+    width: 0; 
+}
+.about-me-design-helper7{
+    position: absolute;
+    margin-top: -75px;
+    margin-left: 50%;
+    height: 100px;
+    width: 25%;
+    border-bottom: 2.5px solid #F39F5A;
+    background: #06142E;
+}
+.about-me-design-helper7::before {
+    content: "";
+    position: absolute;
+    top: 74%; 
+    height: 26%; 
+    right: 0; 
+    border-right: 2.5px solid #F39F5A;
+    width: 0; 
+}
+.about-me-design-helper8{
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 75%;
+    height: 100px;
+    width: 25%;
+    border-bottom: 2.5px solid #F39F5A;
+    background: #06142E;
+}
